@@ -1,0 +1,42 @@
+h3 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    color: black ;
+    margin: 10px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.CD { 
+    background-color: rgb(70, 161, 120);
+    width: 95%;
+    padding: 20px;
+    margin : 10px auto;
+    border: 2px solid rgb(53, 122, 91);
+    border-radius: 2em;
+    transition: 0.4s ease-in-out;
+}
+
+.CD:hover {
+    background-color: rgb(84, 190, 143);
+}
+
+.textCD {
+    font-size: 24px;
+    margin: 10px auto;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: end;
+}
+
+.imgSPCD {
+    width: 25%;
+    border-radius: 2em;
+    margin: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.imgSPCD:hover {
+    transform: scale(1.4);
+}

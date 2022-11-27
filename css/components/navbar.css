@@ -1,0 +1,30 @@
+h2 { 
+    background-color: rgb(184, 184, 184) !important;
+    font-size: 40px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(184, 184, 184);
+    border-bottom: 3px solid rgb(133, 133, 133, 0.874);
+    justify-content: space-between;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    list-style-type: none;
+}

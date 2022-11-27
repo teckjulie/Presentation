@@ -1,0 +1,39 @@
+h4 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 200;
+    color: black ;
+    margin: 10px auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.blender {
+    background-color: rgb(70, 126, 161);
+    width: 95%;
+    padding: 20px;
+    margin : 10px auto;
+    border: 2px solid rgb(57, 103, 132);
+    border-radius: 2em;
+    transition: 0.4s ease-in-out;
+}
+
+.blender:hover {
+    background-color: rgb(91, 153, 192);
+}
+
+.text3D {
+    font-size: 24px;
+    text-align: center;
+}
+
+.img3D {
+    width: 60%;
+    margin-left: 120px;
+    border-radius: 2em;
+    transition: 0.4s ease-in-out;
+}
+
+.img3D:hover {
+    transform: scale(1.4)
+}
